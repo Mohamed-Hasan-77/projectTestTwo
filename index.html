@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontAwesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- BootStrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- main CSS -->
+    <link rel="stylesheet" href="./css/mainStyle.css">
+
+    <title>INSIGHTA - Mohamed Hasan </title>
+</head>
+
+<body>
+
+    <div class="d-flex">
+        <div class="mainSideBar py-3 px-3  px-md-4 ">
+            <h1 class="text-center "> <a class="text-decoration-none" href="#"> INSIGHTA </a> </h1>
+
+            <h5 class="mt-5 "> Explore </h5>
+            <ul class=" sidebarLinks d-flex flex-column list-unstyled ps-1 ">
+                <li class="mt-2 p-0 p-md-2 rounded d-flex align-items-center">
+                    <i class="fa-solid fa-clock fs-5 me-2"></i> Record <span class="d-none  d-md-inline"> insights
+                    </span>
+                </li>
+                <li class="mt-2 p-0 p-md-2 rounded d-flex align-items-center">
+                    <i class="fa-solid fa-star fs-5 me-2"></i> Favorite <span class="d-none  d-md-inline">
+                        insights </span>
+                </li>
+                <li class="mt-2 p-0 p-md-2 rounded d-flex align-items-center">
+                    <i class="fa-solid fa-arrow-trend-up fs-5 me-2"></i> Trending <span class="d-none  d-md-inline">
+                        insights
+                    </span>
+                </li>
+
+            </ul>
+
+            <hr>
+
+            <h5 class="mt-3  "> Consulting Fields </h5>
+
+
+            <div class="form-check mt-3 ms-2">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1" checked>
+                <label class="form-check-label" for="flexCheckDefault1">
+                    Logistics
+                </label>
+            </div>
+            <div class="form-check mt-2 ms-2">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                <label class="form-check-label" for="flexCheckDefault2">
+                    Management
+                </label>
+            </div>
+            <div class="form-check mt-2 ms-2">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked3">
+                <label class="form-check-label" for="flexCheckChecked3">
+                    Industrial
+                </label>
+            </div>
+            <div class="form-check mt-2 ms-2">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked4">
+                <label class="form-check-label" for="flexCheckChecked4">
+                    Management
+                </label>
+            </div>
+
+
+            <p class="text-end mt-4 text-primary"> <a class="text-decoration-none" href="#"> See all fields </a> </p>
+            <hr>
+
+
+
+            <h5 class="mt-3"> Followed insighters </h5>
+            <ul class=" followedIns sidebarLinks d-flex flex-column list-unstyled ps-1 ">
+                <li class="mt-2 p-0 p-md-2 rounded d-flex align-items-center ">
+
+                    <div class="img">
+                        <img src="./images/followed.avif" alt="followed">
+                    </div>
+
+                    <span class="ms-2"> Joerge Wiel </span>
+                </li>
+
+                <li class="mt-2 p-0 p-md-2 rounded d-flex align-items-center ">
+
+                    <div class="img">
+                        <img src="./images/followed.avif" alt="followed">
+                    </div>
+
+                    <span class="ms-2"> Ahmed </span>
+                </li>
+
+                <li class="mt-2 p-0 p-md-2 rounded d-flex align-items-center ">
+
+                    <div class="img">
+                        <img src="./images/followed.avif" alt="followed">
+                    </div>
+
+                    <span class="ms-2"> Ibrahim </span>
+                </li>
+
+            </ul>
+
+            <p class="text-end mt-4 text-primary"> <a class="text-decoration-none" href="#"> See all followed insighters
+                </a> </p>
+            <hr>
+
+
+            <ul class=" sidebarLinks d-flex flex-column list-unstyled ps-1 ">
+                <li class="mt-2 p-0 p-md-2 rounded"> <i class="fa-solid fa-circle-question text-primary"></i> Help </li>
+                <li class="mt-2 p-0 p-md-2 rounded"> <i class="fa-regular fa-message text-info"></i> <span
+                        class="d-none  d-md-inline">
+                        Contact </span> us </li>
+            </ul>
+
+            <p class="mt-4 text-secondary text-center">&copy; 2023 insighta </p>
+        </div>
+
+
+        <div class="landing px-3 py-3">
+            <div class="d-flex justify-content-between">
+                <div class="pagination d-flex align-items-center">
+                    INSIGHTA <span class="text-primary mx-2">//</span> insighter Profile <i
+                        class="fa-solid fa-caret-right ms-2"></i>
+                </div>
+
+
+
+            </div>
+
+            <nav
+                class="bg-body-tertiary d-none d-lg-flex align-items-center bg-body-tertiary p-3 rounded-pill shadow row ">
+                <div class="homeIcons col-1">
+                    <div class="iconWrapper px-2 d-flex ">
+                        <a href="#">
+                            <i class="fa-solid fa-house  fs-3 text-black bg-white"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="selectCountry col-2">
+                    <select class="form-select  " aria-label="Large select example">
+                        <option selected> Jordan</option>
+                        <option value="1">Egypt </option>
+                    </select>
+                </div>
+
+                <div class="searchBox col-5 row align-items-center">
+                    <div class="group col-10">
+                        <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
+                            <g>
+                                <path
+                                    d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z">
+                                </path>
+                            </g>
+                        </svg>
+                        <input placeholder="Search new Insights " type="search" class="input rounded-pill">
+                    </div>
+
+                    <div class="advancedSearch col-2">
+                        <i class="fa-solid fa-filter fs-5"></i>
+                    </div>
+                </div>
+
+                <div class="darkLight col-2 d-flex align-items-center justify-content-center">
+
+                    <span class="me-3"> Dark Mode </span>
+                    <label class="switch">
+                        <input checked="" type="checkbox" class="toggle">
+                        <span class="slider"></span>
+                        <span class="card-side"></span>
+                    </label>
+                </div>
+
+
+                <div class="userAvatar col-2 d-flex align-items-center justify-content-end ">
+
+                    <div class=" position-relative ">
+                        <i class="fa-solid fa-cart-shopping me-2 fs-4"></i>
+                        <span
+                            class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger fs-8">
+                            2
+                        </span>
+                    </div>
+
+                    <div class="userImg ms-4">
+                        <div class=" position-relative">
+                            <img src="./images/userPhoto.avif" alt="">
+                            <span
+                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger fs-8">
+                                7+
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <nav class="navbar navbar-expand-lg bg-body-tertiary d-block d-lg-none shadow-lg">
+                <div class="container-fluid">
+                    <h6 class="mobTitle navbar-brand  fs-5 fs-md-3 ">Insighta </h6>
+                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+
+                        <div class="navItmesMob d-flex flex-column justify-content-between ">
+                            <div
+                                class="homeIcons w-100 d-flex justify-content-between bg-body-secondary align-items-center mt-3 px-3 py-2 rounded ">
+                                <div class="iconWrapper px-2 ">
+                                    <a href="#">
+                                        <i class="fa-solid fa-house  fs-4 "></i>
+                                    </a>
+                                </div>
+
+                                <div class="userAvatar col-2 d-flex align-items-center justify-content-end ">
+
+                                    <div class=" position-relative ">
+                                        <i class="fa-solid fa-cart-shopping me-2 fs-4 text-black"></i>
+                                        <span
+                                            class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger fs-8">
+                                            2
+                                        </span>
+                                    </div>
+
+                                    <div class="userImg ms-4">
+                                        <div class=" position-relative">
+                                            <img src="./images/userPhoto.avif" alt="">
+                                            <span
+                                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger fs-8">
+                                                7+
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="selectCountry w-100">
+                                <select class="form-select  " aria-label="Large select example">
+                                    <option selected> Jordan</option>
+                                    <option value="1">Egypt </option>
+                                </select>
+                            </div>
+
+                            <div class="searchBox w-100 row align-items-center">
+                                <div class="group col-10">
+                                    <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
+                                        <g>
+                                            <path
+                                                d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                    <input placeholder="Search new Insights " type="search" class="input">
+                                </div>
+
+                                <div class="advancedSearch col-2">
+                                    <i class="fa-solid fa-filter fs-5"></i>
+                                </div>
+                            </div>
+
+                            <div class="darkLight w-100 d-flex align-items-center justify-content-center">
+                                <span class="me-3"> Dark Mode </span>
+                                <label class="switch">
+                                    <input checked="" type="checkbox" class="toggle">
+                                    <span class="slider"></span>
+                                    <span class="card-side"></span>
+                                </label>
+                            </div>
+
+
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+
+
+
+            <div class=" heading row mt-5 justify-content-center ">
+                <div class="img col-12 col-lg-3 ">
+                    <img src="./images/userPhoto.avif" class="rounded" alt="user info ">
+
+                </div>
+                <div class=" col-12  col-lg-9   px-4 ">
+                    <div class="wrapper row  rounded bg-body-secondary border">
+                        <div class="bio col-md-8 col-lg-9 p-2 ">
+                            <h6 class="fs-4"> Dr. Josef Rony </h6>
+                            <span class="text-info my-2"> Full Bio : </span>
+
+                            <p class="text-secondary">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima omnis rem non autem
+                                aspernatur repellat adipisci neque esse molestias repudiandae.
+                                aspernatur repellat adipisci neque esse molestias repudiandae.
+                                aspernatur repellat adipisci neque esse molestias repudiandae.
+                            </p>
+
+
+
+                        </div>
+
+                        <div class=" col-md-4 col-lg-3 bg-white text-center pt-2 ">
+                            <p> Join Date </p>
+                            <p> 25/03/2023</p>
+
+                            <div class="stars">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-secondary"></i>
+                            </div>
+                            <p class=" text-center"> 4/5 </p>
+
+                            <div class="btn btn-dark mb-2"> +Follow </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <section class="mainContent mt-5 row ">
+                <div class="numberInfo col-12 col-lg-5">
+                    <div class="numbers  row justify-content-between">
+                        <div class="box col-6 col-lg-3   px-2 py-2 ">
+                            <div
+                                class="innerBox border border-info rounded bg-body-tertiary p-2 d-flex justify-content-center align-items-center flex-column">
+                                <h5 class="fs-4"> 250 </h5>
+                                <p class="text-secondary"> Published</p>
+                            </div>
+                        </div>
+
+                        <div class="box col-6 col-lg-3   px-2 py-2 ">
+                            <div
+                                class="innerBox border border-info rounded bg-body-tertiary p-2 d-flex justify-content-center align-items-center flex-column">
+                                <h5 class="fs-4"> 750 </h5>
+                                <p class="text-secondary"> Sold</p>
+                            </div>
+                        </div>
+
+                        <div class="box col-6 col-lg-3   px-2 py-2 ">
+                            <div
+                                class="innerBox border border-info rounded bg-body-tertiary p-2 d-flex justify-content-center align-items-center flex-column">
+                                <h5 class="fs-4"> 1200 </h5>
+                                <p class="text-secondary"> Downloaded</p>
+                            </div>
+                        </div>
+
+                        <div class="box col-6 col-lg-3   px-2 py-2 ">
+                            <div
+                                class="innerBox border border-info rounded bg-body-tertiary p-2 d-flex justify-content-center align-items-center flex-column">
+                                <h5 class="fs-4"> 150 </h5>
+                                <p class="text-secondary"> Sessions</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="moreInfo mt-4">
+                        <p> Status : <span class="text-info"> qualified </span> <span class="ms-4 text-primary">
+                                Qualifications </span></p>
+                        <p class="d-flex align-items-center "> Address : USA
+                            <img class="ms-2" src="./images/united-states.png" alt="">
+                        </p>
+
+                        <div class="consulting">
+                            <h6> Consulting Fields : <span
+                                    class="px-2  ms-3 fs-7 py-1 bg-black text-white rounded-circle">
+                                    7</span>
+                            </h6>
+
+                            <div class="conFields mt-3">
+                                <span class="btn btn-primary rounded-pill m-1 px-4"> Logistics</span>
+                                <span class="btn btn-primary rounded-pill m-1 px-4"> Market </span>
+                                <span class="btn btn-primary rounded-pill m-1 px-4"> Technical </span>
+                                <span class="btn btn-primary rounded-pill m-1 px-4"> Management</span>
+                                <span class="btn btn-primary rounded-pill m-1 px-4"> Logistics</span>
+                                <span class="btn btn-primary rounded-pill m-1 px-4"> Market</span>
+                                <span class="btn btn-primary rounded-pill m-1 px-4"> Technical</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="theTable col-12 col-lg-7">
+                    <div class="tableHead d-flex justify-content-between align-items-center">
+                        <h5> Totlal Avilable Sessions : 3/Week </h5>
+                        <p> Average Price / Session: 50 USD </p>
+                    </div>
+
+                    <div
+                        class="BookSetDate w-100 p-2 px-3 bg-dark text-white d-flex justify-content-between align-items-center">
+                        <i class="fa-solid fa-arrows-rotate d-none d-lg-inline"></i>
+
+                        <h5> Book Your Consulting Session Now </h5>
+
+
+                        <div class="theDate d-flex align-items-center">
+                            <i class="fa-solid fa-chevron-left"></i>
+                            <span class="mx-2"> Dec 2023</span>
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+
+
+                    </div>
+
+                    <div class="days my-2 ">
+                        <span class=" weekDays p-1 px-lg-3 py-2 text-white">
+                            Sat
+                        </span>
+
+                        <span class=" weekDays p-1 px-md-3 px-lg-4 py-2 text-white">
+                            Sun
+                        </span>
+                        <span class=" weekDays p-1 px-md-3 px-lg-4 py-2 text-white">
+                            Mon
+                        </span>
+                        <span class=" weekDays p-1 px-md-3 px-lg-4 py-2 text-white">
+                            Tues
+                        </span>
+                        <span class=" weekDays p-1 px-md-3 px-lg-4 py-2 text-white">
+                            Wed
+                        </span>
+                        <span class=" weekDays p-1 px-md-3 px-lg-4 py-2 text-white">
+                            Thu
+                        </span>
+                        <span class=" weekDays p-1 px-md-3 px-lg-4 py-2 text-white">
+                            Fr
+                        </span>
+                    </div>
+
+                    <div class="hours">
+                        </span>
+                        <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span>
+                        <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span>
+                        <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  bg-danger p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  bg-danger p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class=" bg-danger p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span> <span class="  p-1 px-md-3 px-lg-4 py-2 text-white fs-7">
+                            09-10Am
+                        </span>
+                    </div>
+
+
+                    <div class="d-flex justify-content-between flex-column flex-md-row">
+                        <div class="left d-flex mt-3">
+                            <div class="boxAvilable p-2 border border-info ">
+                            </div>
+                            <span class="ms-2"> Available Time </span>
+
+                            <div class=" p-2 border bg-danger ms-3 ">
+                            </div>
+                            <span class="ms-2"> N/A </span>
+                        </div>
+
+                        <div class="right mt-3">
+                            Timing System : <span class="text-primary"> UTC</span>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
