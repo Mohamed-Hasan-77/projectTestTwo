@@ -82,58 +82,52 @@ h1,
 
 
 
-.searchBox {
-    .group {
-        display: flex;
-        line-height: 28px;
-        align-items: center;
-        position: relative;
-        max-width: 100%;
-    }
-
-    .input {
-        width: 100%;
-        height: 40px;
-        line-height: 28px;
-        padding: 0 1rem;
-        padding-left: 2.5rem;
-        border: 2px solid transparent;
-        border-radius: 8px;
-        outline: none;
-        background-color: #f3f3f4;
-        color: #0d0c22;
-        transition: .3s ease;
-    }
-
-    .input::placeholder {
-        color: #9e9ea7;
-    }
-
-    .input:focus,
-    input:hover {
-        outline: none;
-        border-color: rgba(76, 202, 234, 0.4);
-        background-color: #fff;
-        box-shadow: 0 0 0 4px rgba(76, 189, 234, 0.1);
-    }
-
-    .icon {
-        position: absolute;
-        left: 1rem;
-        fill: #9e9ea7;
-        width: 1rem;
-        height: 1rem;
-    }
-
-
-    .advancedSearch {
-        cursor: pointer;
-    }
-
-
-
+.searchBox .group {
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+    max-width: 100%;
 }
 
+.searchBox .input {
+    width: 100%;
+    height: 40px;
+    line-height: 28px;
+    padding: 0 1rem;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f3f3f4;
+    color: #0d0c22;
+    transition: .3s ease;
+}
+
+.searchBox .input::placeholder {
+    color: #9e9ea7;
+}
+
+.searchBox .input:focus,
+.searchBox input:hover {
+    outline: none;
+    border-color: rgba(76, 202, 234, 0.4);
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgba(76, 189, 234, 0.1);
+}
+
+
+.searchBox .icon {
+    position: absolute;
+    left: 1rem;
+    fill: #9e9ea7;
+    width: 1rem;
+    height: 1rem;
+}
+
+.searchBox .advancedSearch {
+    cursor: pointer;
+}
 
 
 .darkLight .switch {
@@ -215,22 +209,22 @@ h1,
 .navItmesMob {
     padding: 7px;
     gap: 30px;
-
-    .iconWrapper {
-        gap: 15px;
-        width: 100%;
-
-        .iconWrapper a {
-            width: 100%;
-
-            &:hover {
-                background-color: #6e6e6e;
-            }
-        }
-
-
-    }
 }
+
+.navItmesMob .iconWrapper {
+    gap: 15px;
+    width: 100%;
+}
+
+.navItmesMob .iconWrapper a {
+    width: 100%;
+}
+
+.navItmesMob .iconWrapper:hover {
+    background-color: #6e6e6e;
+}
+
+
 
 
 
@@ -238,11 +232,11 @@ h1,
 
     height: 200px;
     overflow: hidden;
+}
 
-    .img img {
-        width: 100%;
-        object-fit: cover;
-    }
+.heading .img img {
+    width: 100%;
+    object-fit: cover;
 }
 
 
